@@ -1,0 +1,8 @@
+name: Artem
+version: '${version}'
+main: ru.oganesyan.artem.Artem
+api-version: 1.19
+prefix: GoodTreeCapitator
+authors: [ Oganesyan_Artem ]
+description: Данный мод облегчает повседневную рутину в майнкрафте по типу срубки деревьев.
+website: vk.com/aom13
