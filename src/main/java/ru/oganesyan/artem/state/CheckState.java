@@ -40,8 +40,8 @@ public class CheckState {
      * @param item - предмет
      * @return true - если запас прочности предмета > 1, false - если равен единице, либо не имеет прочности
      */
-    public static Boolean isMoreOneDurability(ItemStack item) {
-        return (item.getType().getMaxDurability() - item.getDurability()) > 1;
+    public static Boolean isMoreFiveDurability(ItemStack item) {
+        return (item.getType().getMaxDurability() - item.getDurability()) > 5;
     }
 
     /**
